@@ -1,3 +1,23 @@
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-03 223350" src="https://github.com/user-attachments/assets/dc45cfdf-ae5e-43b3-b461-c9e4d7b6ff74" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \# 🏛️ GenAI Governance Platform
 
 
