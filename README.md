@@ -1,18 +1,28 @@
+
+<img width="1920" height="1080" alt="Screenshot 2025-11-03 223350" src="https://github.com/user-attachments/assets/dc45cfdf-ae5e-43b3-b461-c9e4d7b6ff74" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \# 🏛️ GenAI Governance Platform
 
 
 
 AI-Powered Citizen Service Delivery System for Hackathon Submission
-
-
-
-!\[Status](https://img.shields.io/badge/status-active-success.svg)
-
-!\[Python](https://img.shields.io/badge/python-3.13-blue.svg)
-
-!\[FastAPI](https://img.shields.io/badge/FastAPI-0.115.4-green.svg)
-
-!\[License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
 
@@ -183,11 +193,7 @@ GenAI Governance Platform is an \*\*AI-driven system\*\* that transforms raw gov
 
 
 \### 1️⃣ Clone Repository
-
-
-
-
-
+git clone {github link}
 \### 2️⃣ Backend Setup
 
 
@@ -259,18 +265,6 @@ python -m http.server 5500
 
 
 Frontend will be available at: \[\*\*http://127.0.0.1:5500\*\*](http://127.0.0.1:5500)
-
-
-
----
-
-
-
-\## 🧪 Testing the System
-
-
-
-\### Test Citizen Portal
 
 
 
