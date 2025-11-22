@@ -1,13 +1,15 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://govadmin:Genadmin-1@34.47.128.149:5432/governance_db"
+# Build the connection string from environment variables ONLY
+SQLALCHEMY_DATABASE_URL = (
+    f"postgresql+psycopg2://{os.environ['DB_USER']}:{os.environ['DB_PASS']}@{os.environ['DB_HOST']}:5432/{os.environ['DB_NAME']}"
+)
 
-# No connect_args needed for Postgres
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
 Base = declarative_base()
 
 def get_db():
